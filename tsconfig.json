@@ -16,10 +16,15 @@
     ],
     "strict": true,
     "sourceMap": true,
-    "target": "esnext",
+    "target": "es2021",
     "checkJs": false
   },
-  "include": ["src/**/*"],
+  "include": [
+    "src/**/*",
+    "stories/**/*.tsx",
+    ".storybook/**/*.css",
+    "images/**/*.svg"
+  ],
   "exclude": [
     "node_modules"
   ]
